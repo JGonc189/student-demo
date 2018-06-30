@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- reset.css -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <!-- custom styling -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Hangman Game</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="title">
+            <h1>The <img src="http://thegrownupgeek.com/wp-content/uploads/2015/06/2071_the-avengers-prev.png" alt="the avengers" width="100" height="100">vengers</h1>
+            <p>A Hangman game</p>
+        </div>
+        <div class="rules">
+            <hr />
+            <p>Earth is in danger, and we need your help! Assist the avengers of ridding the world and the galaxy from evil.</p>
+            <p class="small-text">Hint: some words will require a space!</p>
+            <hr />
+        </div>
+        <div id="scoreboard">
+            <p id="result"></p>
+            <p>Wins: <span id="wins"></span></p>
+            <p>Current Word...</p>
+            <p id="underscores">_</p>
+            <p>Guesses Left:</p>
+            <p id="guesses"></p>
+            <p id="incorrect">Letters already guessed...</p>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Built with <i class="fa fa-coffee" aria-hidden="true"></i> by Jason Goncalves</p>
+    </div>
+    <!-- game.js -->
+    <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>

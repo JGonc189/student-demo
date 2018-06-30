@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans|Orbitron:500,700|Share+Tech+Mono');
+
+
+/* font-family: 'Share Tech Mono', monospace; */
+
+* {
+    position: relative;
+}
+
+body {
+    background: url('../images/avengers.jpg');
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Orbitron', sans-serif;
+}
+
+p,
+a,
+span {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.wrapper {
+    padding: 3.625rem;
+}
+
+.title h1 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 3.625rem;
+    text-align: left;
+    line-height: 1;
+    letter-spacing: 1;
+}
+
+.title p {
+    color: #fff;
+    font-size: 2.125rem;
+    text-align: left;
+    line-height: 1;
+    letter-spacing: 1;
+    padding: 1.125rem;
+}
+
+hr {
+    width: 28.125rem;
+}
+
+.rules {
+    width: 28.125rem;
+}
+
+.rules p {
+    color: #fff;
+    font-size: 1.125rem;
+    text-align: left;
+    line-height: 1;
+    letter-spacing: 1;
+    padding: 1.125rem 1.125rem 0 1.125rem;
+}
+
+.rules > .small-text {
+	font-size: .675rem;
+}
+
+#scoreboard {
+    background-color: rgba(20, 20, 20, .5);
+
+    border: 0.125rem solid #fff;
+    width: 28.125rem;
+    height: 18.125rem;
+    display: inline-block;
+    float: left;
+    /*left: 50px;*/
+    margin: 1.125rem 0;
+}
+
+#scoreboard > #result {
+	font-size: 2.125rem;
+	color: rgb(144,22,38);
+	font-family: 'Share Tech Mono', monospace; 
+	font-weight: 600;
+}
+
+#scoreboard p {
+    color: #fff;
+    text-align: center;
+    padding-top: 16px;
+}
+
+.footer {
+    clear: both;
+    margin: 0;
+    background-color: rgba(20, 20, 20, .75);
+    border-top: 0.125rem solid rgba(144, 22, 38, .5);
+    height: 2.8125rem;
+    width: 100%;
+}
+
+.footer p {
+    color: #ccc;
+    font-size: 0.75rem;
+    text-align: center;
+    line-height: 3.5;
+}
